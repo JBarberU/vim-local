@@ -21,6 +21,7 @@ your vimrc:
 By default g:vim_local_traverse_filetree is set to 1, which leads to the
 following behavior:
 
+```
 /some/path/code/.vimrc-local
 /some/path/code/python/project1 -> will load /some/path/code/.vimrc-local
 /some/path/code/python/project2 -> will load /some/path/code/.vimrc-local
@@ -29,6 +30,7 @@ following behavior:
 /some/path/code/work/project2 -> will load /some/path/code/work/.vimrc-local
 /some/path/code/work/project3/.vimrc-local
 /some/path/code/work/project3 -> will load /some/path/code/work/project3/.vimrc-local
+```
 
 This makes it pretty easy to share vim settings for multiple related projects,
 but has the potential of becomming rather complex. Use as you see fit!
